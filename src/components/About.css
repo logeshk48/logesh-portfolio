@@ -1,0 +1,76 @@
+.about {
+  padding: 120px 10%;
+  color: white;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-badge {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-bottom: 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #cfcfe7;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  backdrop-filter: blur(10px);
+}
+
+.about-title {
+  margin-bottom: 24px;
+}
+
+.about-variable-title {
+  font-size: clamp(42px, 7vw, 64px);
+  line-height: 1.05;
+  display: inline-block;
+  cursor: default;
+  color: #ffffff;
+}
+
+.about-text {
+  max-width: 760px;
+  margin: 0 auto 18px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.about-subtext {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.skills {
+  margin-top: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.skill {
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #f1f1f1;
+  font-size: 14px;
+  transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+  backdrop-filter: blur(12px);
+}
+
+.skill:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
