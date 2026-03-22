@@ -25,7 +25,7 @@ export default function About() {
 
         <h2 className="about-title">
           <VariableProximity
-            label="About Me"
+            label="Who am I?"
             className="about-variable-title"
             fromFontVariationSettings="'wght' 400, 'opsz' 14"
             toFontVariationSettings="'wght' 900, 'opsz' 40"
@@ -39,11 +39,11 @@ export default function About() {
           <VariableProximity
             label="I'm Logesh, an AI-powered web developer passionate about building modern, responsive, and interactive web experiences."
             className="about-variable-text"
-            fromFontVariationSettings="'wght' 400, 'opsz' 14"
-            toFontVariationSettings="'wght' 650, 'opsz' 22"
+            fromFontVariationSettings="'wght' 300, 'opsz' 14"
+            toFontVariationSettings="'wght' 900, 'opsz' 40"
             containerRef={containerRef}
-            radius={60}
-            falloff="linear"
+            radius={140}
+            falloff="gaussian"
           />
         </div>
 
@@ -51,11 +51,11 @@ export default function About() {
           <VariableProximity
             label="I enjoy creating clean user interfaces, smooth animations, and smart digital products that feel professional, modern, and engaging."
             className="about-variable-subtext"
-            fromFontVariationSettings="'wght' 400, 'opsz' 14"
-            toFontVariationSettings="'wght' 600, 'opsz' 18"
+            fromFontVariationSettings="'wght' 300, 'opsz' 14"
+            toFontVariationSettings="'wght' 850, 'opsz' 32"
             containerRef={containerRef}
-            radius={65}
-            falloff="linear"
+            radius={130}
+            falloff="gaussian"
           />
         </div>
 
